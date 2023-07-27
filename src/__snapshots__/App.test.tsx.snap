@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test 1`] = `
+<div
+  className="container divide-y divide-gray-500"
+>
+  <div
+    className="flex bg-light-camb pl-2 pr-2 pb-4 pt-4"
+  >
+    <img
+      alt="Cambridge Dictionary logo with \\"Cambridge Dictionary\\" on the left side"
+      className="mr-4"
+      role="image-logo"
+      src="https://dictionary.cambridge.org/external/images/logo-lrg-small.png?version=5.0.329"
+    />
+    <p
+      className="text-white"
+    >
+      Make your words meaningful!
+    </p>
+  </div>
+  <div
+    className="bg-dark-camb pl-2 pr-2 pb-8 pt-2"
+  >
+    <form
+      className="flex-auto mb-4"
+      onSubmit={[Function]}
+      role="form"
+    >
+      <input
+        className="rounded-l-full p-2 outline-none"
+        name="word"
+        onChange={[Function]}
+        value=""
+      />
+      <select
+        className="rounded-r-full h-10 bg-white mr-1"
+        name="chooseDictionary"
+        onChange={[Function]}
+        value="english"
+      >
+        <optgroup
+          label="Definitions"
+        >
+          <option
+            value="english"
+          >
+            English
+          </option>
+          <option
+            value="learner-english"
+          >
+            Learner
+            '
+            s Dictionary
+          </option>
+          <option
+            value="essential-british-english"
+          >
+            Essential British English
+          </option>
+          <option
+            value="essential-american-english"
+          >
+            Essential American English
+          </option>
+        </optgroup>
+        <optgroup
+          label="Bilingual Dictionaries"
+        >
+          <option
+            value="english-dutch"
+          >
+            English-Dutch
+          </option>
+          <option
+            value="english-french"
+          >
+            English-French
+          </option>
+          <option
+            value="english-german"
+          >
+            English-German
+          </option>
+          <option
+            value="english-indonesian"
+          >
+            English-Indonesian
+          </option>
+          <option
+            value="english-italian"
+          >
+            English-Italian
+          </option>
+          <option
+            value="english-japanese"
+          >
+            English-Japanese
+          </option>
+          <option
+            value="english-norwegian"
+          >
+            English-Norwegian
+          </option>
+          <option
+            value="english-polish"
+          >
+            English-Polish
+          </option>
+          <option
+            value="english-portuguese"
+          >
+            English-Portuguese
+          </option>
+          <option
+            value="english-spanish"
+          >
+            English-Spanish
+          </option>
+        </optgroup>
+        <optgroup
+          label="Semi-bilingual Dictionaries"
+        >
+          <option
+            value="english-arabic"
+          >
+            English-Arabic
+          </option>
+          <option
+            value="english-bengali"
+          >
+            English-Bengali
+          </option>
+          <option
+            value="english-catalan"
+          >
+            English-Catalan
+          </option>
+          <option
+            value="english-chinese-simplified"
+          >
+            English-Chinese (Simplified)
+          </option>
+          <option
+            value="english-chinese-traditional"
+          >
+            English-Chinese (Traditional)
+          </option>
+          <option
+            value="english-czech"
+          >
+            English-Czech
+          </option>
+          <option
+            value="english-danish"
+          >
+            English-Danish
+          </option>
+          <option
+            value="english-hindi"
+          >
+            English-Hindi
+          </option>
+          <option
+            value="english-korean"
+          >
+            English-Korean
+          </option>
+          <option
+            value="english-malay"
+          >
+            English-Malay
+          </option>
+          <option
+            value="english-marathi"
+          >
+            English-Marathi
+          </option>
+          <option
+            value="english-russian"
+          >
+            English-Russian
+          </option>
+          <option
+            value="english-thai"
+          >
+            English-Thai
+          </option>
+          <option
+            value="english-turkish"
+          >
+            English-Turkish
+          </option>
+          <option
+            value="english-ukrainian"
+          >
+            English-Ukrainian
+          </option>
+          <option
+            value="english-vietnamese"
+          >
+            English-Vietnamese
+          </option>
+        </optgroup>
+      </select>
+      <button
+        className="bg-[#fec400] rounded-full p-2 w-10"
+        type="submit"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-magnifying-glass "
+          data-icon="magnifying-glass"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </button>
+    </form>
+    <ul
+      className="list-inside grid grid-cols-2 gap-4"
+      role="ul"
+    />
+  </div>
+</div>
+`;
